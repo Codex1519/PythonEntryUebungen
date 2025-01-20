@@ -19,6 +19,6 @@ def summe(initial = 0, *args):
     for a in args:
         sum += a
     return sum
-)
+
 
 print(nettopreis(150))
