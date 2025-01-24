@@ -28,7 +28,7 @@ class Auto:
     # Statisches Attribut
     anzahl_autos = 0
     
-    # ToString-Methode
+    # ToString-Methode 
     def __str__(self):
         return f"Marke: {self.marke}, Modell: {self.modell}, Farbe: {self.farbe}, PS: {self.ps}, KM: {self.km}"
     
